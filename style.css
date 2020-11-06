@@ -1,0 +1,54 @@
+.body{
+    background-image: url(https://raw.githubusercontent.com/13007491638/PicGO/master/img/fcb.jpg);
+    background-size: 100%;
+}
+
+.Title{
+font-size: 100px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 350; 
+color: aliceblue;
+}
+
+.Library{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+.Cinema{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+.Recent{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.Other{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.point{
+    color: aliceblue;
+}
+
+.table{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.book{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 40px;
+}
+
+.web{
+    color: blue;
+    font-size: 20;
+}
+
