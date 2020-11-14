@@ -1,54 +1,443 @@
-.body{
-    background-image: url(https://raw.githubusercontent.com/13007491638/PicGO/master/img/fcb.jpg);
+.p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.direction{
+    position:fixed;
+    z-index: 10;
+    align-items: center;
+}
+
+.direction_ul{
+    list-style: none;
+    position: fixed;
+    top: 0%;
+    border-radius: 50%;
+    width: 100%;
+    background-color:rgb(255,242,192) ;
+    padding-top: 0.75%;
+    padding-bottom: 1.25%;
+}
+
+.direction_li{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    padding-right: 5%;
+    display: inline;
+}
+
+#NewTherad{
+    font-size: 300%;
+}
+.direction_li_p{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-size: 125%;
+}
+
+
+.direction_li_p:hover{
+    color:white;
+}
+#NewTherad:hover{
+    transform: scale(1.10);
+}
+
+.Geek_shouye{
+    position: relative;
+} 
+
+#Geek_png{
+    position: absolute;
+    left: 32%;
+    top: 10%;
+    float: none;
+    z-index: 1;
+    width: 40%;
+}
+
+#Geek_png:hover{
+    transform: scale(0.75);
+    transition: all 1s ease 0s;
+}
+
+#shouyebeijin_png{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    left: 0%;
+    top: 0%;
+}
+
+#Geek_shouye_p{
+    text-align: center;
+}
+#Geek_shouye_p1{
+    position: absolute;
+    float: none;
+    left: 48%;
+    top: 35%;
+    z-index: 1;
+    font-size: 100%;
+    display: inline;
+}
+
+
+#Geek_shouye_p2{
+    position: absolute;
+    left: 46.5%;
+    top: 38%;
+    z-index: 1;
+    font-size: 100%;
+    display: inline;
+}
+
+#Geek_shouye_p1:hover{
+    transform: scale(0.75);
+    transition: all 1s ease 0s;
+}
+#Geek_shouye_p2:hover{
+    transform: scale(0.75);
+    transition: all 1s ease 0s;
+}
+
+.guoduhuawen{
+    width: 100%;
+}
+
+#kaifa{
+    display: flex;
+}
+
+.kaifa_p{
+    font-size: 200%;
+    width: 60%;
+    margin-left: 7%;
+}
+#houzi_png{
+    width: 40%;
+    margin-right: 7%;
+}
+
+.chanpin{
+    display: flex;
+}
+.chanpin_p{
+    font-size: 200%;
+    width: 60%;
+    margin-right: 7%;
+    margin-top: 3%;
+}
+#chanpin_png{
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.AI{
+    display: flex;
+}
+.AI_p{
+    font-size: 200%;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+#ai_png{
+    width: 40%;
+    margin-top: 3%;
+    margin-right: 7%;
+}
+
+.anquan{
+    display: flex;
+}
+
+.anquan_p{
+    width: 60%;
+    font-size: 200%;
+    margin-top: 3%;
+    margin-right: 7%;
+}
+#anquan_png{
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 7%;
+    scale: 0.85;
+}
+
+.youshang{
+    display: flex;
+    justify-content: space-between;
+}
+#youshang_left{
+
+    width: 12%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+}
+#youshang_right{
+
+    width: 12%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+}
+
+.About_us_ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.About_us_li{
+    border-radius: 15%;
+    border:  solid cornflowerblue;
+    border-width: thick ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1vh;
+
+}
+
+#About_us_li_img{
+    width: 80%;
+}
+
+.youshang{
+    display: flex;
+    justify-content: space-between;
+}
+#youshang_left2{
+
+    width: 12%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    transform: scale(-1);
+}
+#youshang_right2{
+
+    width: 12%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    transform: scale(-1);
+}
+
+.Contact_us_img{
+    position: relative;
+    left: 30%;
+    float: left;
+    width: 40%;
+    display: flex;
+}
+.Contact_us_ul{
+    list-style: none;
+    margin-left: 18%;
+    float: left;
+    width: 50%;
+}
+.Contact_us_p{
+
+}
+#Contact_us_img1{
+    width: 50%;
+}
+#Contact_us_img2{
+    width: 90%;
+}
+#tree{
+    position: relative;
+    right: 1%;
+    width: 20%;
+    float: right;
+}
+.Button{
+    padding-top: 50%;
+    position: relative;
+}
+.button_ul{
+    list-style: none;
+    z-index: 1;
+    position: relative;
+}
+.button_li{
+    position: relative;
+    float: left;
+    display: inline;
+    margin-left: 15%;
+    background-color: rgb(66,96,88);
+    border-radius: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 0.75%;
+    padding-left: 0.75%;
+}
+#button_QQgroup{
+    color: white;
+}
+#button_E-mail{
+    color: white;
+}
+#button_Github{
+    color: white;
+}
+
+#bianselong{
+    width: 60%;
+    position: relative;
+    left: 20%;
+    bottom: 36vh;
+    z-index: 0;
+}
+#zuidi{
+    position: flex;
+    background-image: url(https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201114183812.png);
     background-size: 100%;
 }
-
-.Title{
-font-size: 100px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-weight: 350; 
-color: aliceblue;
+#zuidibeijing{
+    width: 100%;
+    z-index: 1;
+    float: none;
+    position: relative;
+    display: inline;
+}
+#More{
+    width: 80%;
+    z-index: 2;
+    float: none;
+    position: relative;
+    display: inline;
+}
+.zuidiwenzi{
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    margin-left: 20%;
 }
 
-.Library{
-    color: aliceblue;
-    font-size: 50px;
+#A1{
+    display: none;
+}
+#A2{
+    display: none;
+}
+#A3{
+    display: none;
+}
+#A4{
+    display: none;
+}
+#A5{
+    display: none;
+}
+#A6{
+    display: none;
+}
+#A7{
+    display: none;
+    padding-bottom: 2%;
 }
 
-
-.Cinema{
-    color: aliceblue;
-    font-size: 50px;
+#Q1_p{
+    color: white;
+}
+#Q2_p{
+    color: white;
+}
+#Q3_p{
+    color: white;
+}
+#Q4_p{
+    color: white;
+}
+#Q5_p{
+    color: white;
+}
+#Q6_p{
+    color: white;
+}
+#Q7_p{
+    color: white;
+}
+#Q1{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+#Q1:hover{
+    color: royalblue;
+    background-color:rgb(148,202,255) ;
+    transform: scale(1.10);
+    transition: all 1s ease 0s;
 }
 
-
-.Recent{
-    color: aliceblue;
-    font-size: 50px;
+#Q2:hover{
+    color: royalblue;
+    background-color:rgb(148,202,255) ;
+    transform: scale(1.10);
+    transition: all 1s ease 0s;
+}
+#Q2{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-.Other{
-    color: aliceblue;
-    font-size: 50px;
+#Q3:hover{
+    color: royalblue;
+    background-color:rgb(148,202,255) ;
+    transform: scale(1.10);
+    transition: all 1s ease 0s;
+}
+#Q3{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-.point{
-    color: aliceblue;
+#Q4:hover{
+    color: royalblue;
+    background-color:rgb(148,202,255) ;
+    transform: scale(1.10);
+    transition: all 1s ease 0s;
+}
+#Q4{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-.table{
-    color: aliceblue;
-    font-size: 20px;
+#Q5:hover{
+    color: royalblue;
+    background-color:rgb(148,202,255) ;
+    transform: scale(1.10);
+    transition: all 1s ease 0s;
+}
+#Q5{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-.book{
-    color: aliceblue;
-    font-size: 15px;
-    font-weight: 40px;
+#Q6:hover{
+    color: royalblue;
+    background-color:rgb(148,202,255) ;
+    transform: scale(1.10);
+    transition: all 1s ease 0s;
+}
+#Q6{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-.web{
-    color: blue;
-    font-size: 20;
+#Q7:hover{
+    color: royalblue;
+    background-color:rgb(148,202,255) ;
+    transform: scale(1.10);
+    transition: all 1s ease 0s;
 }
-
+#Q7{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
