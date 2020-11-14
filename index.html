@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recurrent</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width， initial-scale=1" /><!--屏幕自适应-->
+    
+</head>
+<head>
+    <script>
+        function aclick(id){
+            if(id.style.display=="block")
+            {
+                id.style.display="none";
+            }
+            else
+            {
+                id.style.display="block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="direction">  <!-- 导航栏 -->
+        <ul class="direction_ul" >
+            <li class="direction_li"><a href="#div9" class="direction_li_p">About Us</a></li>
+            <li class="direction_li"><a href="#div4" class="direction_li_p">Introduction</a></li>
+            <li class="direction_li" id="NewTherad"><a href="https://new-thread.com/" class="direction_li_p" target="_blank" >NewThread</a></li>
+            <li class="direction_li"><a href="#zuidi" class="direction_li_p">Q&Ask</a></li>
+            <li class="direction_li"><a href="#div11" class="direction_li_p">Contact Us</a></li>
+        </ul>
+    </div>    
+        
+    <div class="Geek_shouye">  <!--Geek首页背景-->
+        <img src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/Geek1.png" alt="该图片暂时无法显示" id="Geek_png">
+        <div id="Geek_shouye_p">
+            <p id="Geek_shouye_p1">Keep Curiosity</p>
+            <p id="Geek_shouye_p2">The Power Of Change</p>
+        </div>
+        <img src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201107205909.png" alt="该图片暂时无法显示" id="shouyebeijin_png" >
+    </div>    
+        
+    <div>   <!--过渡花纹-->
+        <img class="guoduhuawen" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108152342.png" alt="该图片暂时无法显示">
+    </div>
+
+    <div id="kaifa">  <!--开发程序猿-->
+        <div class="kaifa_p">
+            <p>"开发程序猿"</p>
+            <p>“Stay Hungry，Stay Foolish” </p>
+            <p>前端：前端开发是创建Web或app视觉界面呈现给用户的过程通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，实现互联网产品的用户界面交互。</p>
+            <p>后端：通常也称服务器端开发。不对用户显示,负责处理前端的请求，进行逻辑处理和数据交互。</p>
+            <p>客户端:  移动应用开发是为了小型、无线计算设备编写软件的流程和程序的集合，例如智能手机或平板电脑。</p>
+        </div>
+        <img id="houzi_png" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108152951.png" alt="该图片暂时无法显示">
+    </div>
+
+    <div class="chanpin">  <!--产品经理-->
+        <img id="chanpin_png" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108154716.png" alt="该图片暂时无法显示">
+        <div class="chanpin_p">
+            <p>产品经理/UI设计(PM/UI)</p>
+            <p>"好的软件的特征是,明明没用过，但总觉得用过似的。"</p>
+            <p> PM是针对某一项或是某一类的产品进行规划和管理的人员。</p>
+            <P> PM需要拥有缜密的产品逻辑思维，研究用户心理，负责产品的整个生命周期。</P>
+            <P> PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性,操作变得舒适简单、自由。</P>
+            <P> PM需要一定的文档能力和沟通能力，能够在团队合作的过程中跟各个角色进行有效沟通。</P>
+        </div>
+        
+    </div>
+
+    <div class="AI">  <!--AI算法-->
+        <div class="AI_p">
+            <p>"AI/算法(AI/AIGO)"</p>
+            <p>"路漫漫其修远兮，非大毅力者不能"</p>
+            <p>人工智能站在了风口，机器学习和深度学习是它的分支，是团队仍在探索的方向。</p>
+            <p>当下AI技术的应用涉及到图像处理、自然语言处理、推荐系统和无人驾驶等领域。</p>
+            <p>AI的核心就是算法和性能。充满科技感的背后，是大量的数学统计理论和计算机知识。</p>
+        </div>
+        <img id="ai_png" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108155158.png" alt="该图片暂时无法显示">
+    </div>
+
+    <div class="anquan">  <!--安全工程师-->
+        <img id="anquan_png" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108155207.png" alt="该图片暂时无法显示">
+        <div class="anquan_p">
+            <p>安全攻城狮(Sacurity)</p>
+            <p>"我们需要的不是脚本小子，而是对底层原理了如指掌。"</p>
+            <p>主要涉及网络攻防、漏洞挖掘，能够代表团队参加CTF安全赛事。</p>
+            <p>互联网安全从其本质上来讲其实就是互联网上的信息安全。</p>
+            <p>网络安全攻城狮是拥有扎实基础的SuperHacker,同时具有强大的自学能力。</p>
+            <p>网络安全攻城狮能够识别IT系统的优缺点。并且了解黑客以及网络犯罪手段,且精通网络安全技术:包括服务漏洞扫描、程序漏洞分析检测、病毒木马防范等。</p>
+        </div>
+    </div>
+
+    <div class="youshang">  <!--忧伤过度花纹-->
+        <img id="youshang_left" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108151906.png" alt="该图片暂时无法显示">
+        <img id="youshang_right" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108151906.png" alt="该图片暂时无法显示">
+    </div>
+
+    <div id="About_us">
+        <ul class="About_us_ul">
+            <li class="About_us_li" id="About_us_1">
+                <img id="About_us_li_img" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108194238.png" alt="该图片暂时无法显示">
+                <p>多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、算法、产品等。</p>
+            </li>
+            <li class="About_us_li">
+                <img id="About_us_li_img" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108194326.png" alt="该图片暂时无法显示">
+                <p>每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。</p>
+            </li>
+            <li class="About_us_li" id="About_us_3">
+                <img id="About_us_li_img" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108194326.png" alt="该图片暂时无法显示">
+                <p>耐心、毅力是我们必备的品质，每周我们会至少花30小时在实验室中。以保证技术的精进。</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="youshang">
+        <img id="youshang_left2" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108151906.png" alt="该图片暂时无法显示">
+        <img id="youshang_right2" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201108151906.png" alt="该图片暂时无法显示">
+    </div>
+
+    <div id="Contact_us">
+        <div class="Contact_us_img">
+        <img id="Contact_us_img1" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201109222836.png" alt="该图片暂时无法显示">
+        <div>
+        <img id="Contact_us_img2" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201109222827.png" alt="该图片暂时无法显示">
+        </div>
+        </div>
+        <img id="tree" src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201110154037.png" alt="该图片暂时无法显示">
+        <ul class="Contact_us_ul">
+            <p class="Contact_us_p">
+            <li class="Contact_us_li">•热爱计算机，具有geek精神，喜欢DIY，动手能力较强</li>
+            <li class="Contact_us_li">•有编程/算法/硬件基础为佳(有作品可附上)</li>
+            <li class="Contact_us_li">•有足够的空余时间，热爱思考，对事物有自己的见解</li>
+            <li class="Contact_us_li">ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生,都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</li>
+            </p>
+        </ul>
+        <div class="Button">
+            <ul class="button_ul">
+                <li class="button_li"><p id="button_QQgroup">QQ group</p></li>
+                <li class="button_li"><p id="button_E-mail">E-mail</p></li>
+                <li class="button_li"><p><a href="https://github.com/" target="_blank" id="button_Github">Github</a></p></li>
+            </ul>
+        </div>
+        
+            <img src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201112191547.png" alt="该图片暂时无法显示" id="bianselong">
+        
+    </div>
+
+    <div id="zuidi">
+        <img src="https://raw.githubusercontent.com/13007491638/PicGO/master/img/20201112195030.png" alt="该图片暂时无法显示" id="More">
+        <div class="zuidiwenzi">
+            <div id="Q1" onclick="aclick(A1)"><p id="Q1_p">1.什么是Geek(极客)？Geek精神又是什么？</p></div>
+            <div id="A1"><p >拥有好奇之心，改变之力，爱钻研，能折腾。</p></div>
+            <div id="Q2" onclick="aclick(A2)"><p id="Q2_p">2.招新是安排在什么时间？</p></div>
+            <div id="A2"><p>按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地点一般在9号教学楼。 如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。</p></div>
+            <div id="Q3" onclick="aclick(A3)"><p id="Q3_p">3.我们有考核吗？考核流程是怎样的呀？</p></div>
+            <div id="A3"><p>嗯...我们一共有一轮笔试和两轮面试。权衡技术、经验和学习能力，第一轮是一些视野性的题目，淘汰率并不高。第二轮单独面试，根据你的笔试提出技术相关的问题、兴趣爱好、个人看法。最后一轮群面，首先问及时间分配上的问题，其次也会向你提出各种奇怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过成为预备成员啦。</p></div>
+            <div id="Q4" onclick="aclick(A4)"><p id="Q4_p">4.考核是怎样的形式？</p></div>
+            <div id="A4"><p>在考核期间每人会拥有一位'长者'带你入门，学习技术与知识，交流经验与想法。完成每周的新人任务后再进行一次考核筛选后就可以成为Geek组正式成员啦！在考核期必须满足每周30个小时在实验室哦,所以考核期也不可以懈怠哦！</p></div>
+            <div id="Q5" onclick="aclick(A5)"><p id="Q5_p">5.进入Geek组之后都有什么福利呢？</p></div>
+            <div id="A5"><p>1对1的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长，组内管理较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。打破平淡，与同样疯狂的人把疯狂的idea实现，磨砺耐性、培养思维、成就梦想。Lab设备/网络资源充足，闲暇之余也有组织活动。更有许多的故事等你来听~</p></div>
+            <div id="Q6" onclick="aclick(A6)"><p id="Q6_p">6.进入团队会影响我的日常学习吗？</p></div>
+            <div id="A6"><p>你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的人，而我们也期待同样优秀的你，让我们一起前进！小组里也有不少保研, 考研的前辈们, 大部分都能找到一个平衡点, 而且团队的经历对你日后读研, 工作都大有裨益。</p></div>
+            <div id="Q7" onclick="aclick(A7)"><p id="Q7_p">7.老师以及学长学姐们的期望是什么?</p></div>
+            <div id="A7"><p>我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，逻辑性强，善于和各种文化的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。如果你想做产品或有不错的 idea，那么就可以找志同道合的人一起合作。”</p></div>
+        </div>
+    </div>
+</body>
+</html>
